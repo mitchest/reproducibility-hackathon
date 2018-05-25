@@ -17,8 +17,7 @@ Choosing papers
 Papers from July 2014 - to ensure data policy in full swing. The sections below detail the volume/issue/page range for each of the BES/ESA journals.
 
 R Functions to choose papers (Functions have set.seed() built in to ensure reproducibility):
-
-```r
+```{r}
 # function that randomly chooses a page within the range specified
 # we reviewed papers that fell on sampled page number
 ChooseByPage = function(PageMin, PageMax, n) {
@@ -45,13 +44,8 @@ Volume 28
 Issues 4-6
 Pages 787-1555
 
-
-```r
+```{r}
 ChooseByPage(787,1555,3)
-```
-
-```
-## [1] "Journal pages chosen: 1023, 984, 1210"
 ```
 Random artical selection:
 ```
